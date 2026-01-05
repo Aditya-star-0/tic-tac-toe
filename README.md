@@ -1,12 +1,8 @@
 # 🎮 Tic Tac Toe Game
-
 A simple and interactive **Tic Tac Toe game** built using **HTML, CSS, and JavaScript**.  
 This project is beginner-friendly and demonstrates DOM manipulation, event handling, and basic game logic.
 
----
-
 ## 🚀 Features
-
 - Two-player game (X vs O)
 - Win detection
 - Draw detection
@@ -14,10 +10,7 @@ This project is beginner-friendly and demonstrates DOM manipulation, event handl
 - Clean and responsive UI
 - Icons using Font Awesome
 
----
-
 ## 🛠️ Technologies Used
-
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
@@ -26,39 +19,33 @@ This project is beginner-friendly and demonstrates DOM manipulation, event handl
 ---
 
 ## 📂 Project Structure
-
+```md
 tic-tac-toe/
 │── index.html
 │── style.css
 │── script.js
 │── README.md
-
-
----
+```
 
 ## ▶️ How to Run the Project
-
-1. Clone the repository:
+Clone the repository
+```md
    git clone https://github.com/Aditya-star-0/tic-tac-toe.git
-2. Open the folder:
-   cd tic-tac-toe
-3. Open index.html in your browser OR use Live Server in VS Code.
-
----
+```
+Open index.html in your browser
 
 ## 🌐 Live Demo (GitHub Pages)
+```md
 https://aditya-star-0.github.io/tic-tac-toe/
-
----
+```
 
 ## 📸 Preview
-
-Simple 3×3 grid with interactive gameplay.
-
----
+(screenshot of game)
+<img width="1916" height="912" alt="image" src="https://github.com/user-attachments/assets/d28e4b40-d66a-4e61-b961-e2e25a74e54d" />
+(screenshot of winning message)
+<img width="1918" height="912" alt="image" src="https://github.com/user-attachments/assets/359cbef7-8de7-41e2-b714-ff5f6cf540d5" />
 
 ## 📌 Future Improvements
-
 - Add AI (Computer Player)
 - Add Scoreboard
 - Add Sound Effects
