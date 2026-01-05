@@ -39,10 +39,10 @@ https://aditya-star-0.github.io/tic-tac-toe/
 
 ## 📸 Preview
 (screenshot of game)
-game
+<b>Main game</b>
 <img width="1916" height="912" alt="image" src="https://github.com/user-attachments/assets/d28e4b40-d66a-4e61-b961-e2e25a74e54d" />
 <br>
-winning message
+<b>Winning message</b>
 <img width="1918" height="912" alt="image" src="https://github.com/user-attachments/assets/359cbef7-8de7-41e2-b714-ff5f6cf540d5" />
 
 ## 📌 Future Improvements
