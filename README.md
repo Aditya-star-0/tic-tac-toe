@@ -33,9 +33,7 @@ Clone the repository
 Open index.html in your browser
 
 ## 🌐 Live Demo (GitHub Pages)
-```md
-https://aditya-star-0.github.io/tic-tac-toe/
-```
+👉 https://aditya-star-0.github.io/tic-tac-toe/
 
 ## 📸 Preview
 (screenshot of game)
