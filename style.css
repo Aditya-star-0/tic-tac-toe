@@ -1,0 +1,122 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #24A1DE, #71b4d5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+main {
+    background-color: #c5c5c5;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Game container */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Grid */
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Game boxes */
+.box {
+    width: 80px;
+    height: 80px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.box:hover {
+    background-color: #ddd;
+}
+
+.box:disabled {
+    cursor: not-allowed;
+    background-color: #e0e0e0;
+}
+
+/* Reset button */
+#resetBtn {
+    margin-top: 1rem;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #B2071D;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Winner message container */
+.msgContainer {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10;
+}
+
+/* Hide class */
+.hide {
+    display: none;
+}
+
+/* Winner text */
+#winnerMsg {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+/* Play again button */
+#playAgainBtn {
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color:#B2071D;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#playAgainBtn:hover,
+#resetBtn:hover{
+    background-color: rgb(255, 0, 98);
+}
